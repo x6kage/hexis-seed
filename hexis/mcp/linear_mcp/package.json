@@ -1,0 +1,30 @@
+{
+  "name": "linear-mcp",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Linear MCP server on Vercel: streamable HTTP, one route per app identity.",
+  "type": "module",
+  "scripts": {
+    "predev": "bun install && bun x biome check --write .",
+    "dev": "bun --hot dev.ts",
+    "dev:cf": "wrangler dev",
+    "deploy:cf": "wrangler deploy"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/server": "^2.0.0",
+    "mcp-handler": "^2.2.0",
+    "zod": "^4.6.5"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.5.14",
+    "@types/bun": "^1.4.2",
+    "typescript": "^7",
+    "wrangler": "4.151.3"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "allowScripts": {
+    "esbuild@0.28.2": true
+  }
+}

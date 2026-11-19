@@ -1,0 +1,5 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "functions": { "api/*.ts": { "maxDuration": 10 } },
+  "rewrites": [{ "source": "/claude", "destination": "/api/claude" }, { "source": "/peer", "destination": "/api/peer" }]
+}

@@ -1,0 +1,3 @@
+[test]
+# `bun test` is the one entry: Biome and tsc run first (test/preflight.ts), then the tests.
+preload = ["./test/preflight.ts"]

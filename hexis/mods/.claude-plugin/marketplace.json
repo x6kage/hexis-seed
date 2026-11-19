@@ -1,0 +1,5 @@
+{
+  "name": "hexis-mods",
+  "owner": { "name": "Kage" },
+  "plugins": [{ "name": "jev-band", "source": "./jev-band" }]
+}

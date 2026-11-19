@@ -1,0 +1,6 @@
+{
+  "include": ["hooks", "scripts", "mcp/linear_claude"],
+  "extraPaths": ["hooks", "scripts"],
+  "pythonVersion": "3.13",
+  "typeCheckingMode": "standard"
+}

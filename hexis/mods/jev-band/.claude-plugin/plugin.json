@@ -1,0 +1,5 @@
+{
+  "name": "jev-band",
+  "version": "0.1.0",
+  "description": "Draws the latest Jev reading line and cost line above the prompt, from the files the Python hooks write."
+}
